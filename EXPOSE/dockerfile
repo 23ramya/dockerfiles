@@ -1,0 +1,2 @@
+FROM almalinux:9
+EXPOSe 80/tcp
