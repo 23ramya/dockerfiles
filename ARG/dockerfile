@@ -1,6 +1,6 @@
 ARG version
 FROM almalinux:${version:-8}
-ARG ${COURSE:-docker}
-ARG ${TRAINER:-shivakumar}
-RUN echo "course is : {COURSE}  trainer is : {TRAINER} "
-CMD["sleep","100"]
+ARG ${COURSE:-Docker}
+ARG ${TRAINER:-Shivakumar}
+RUN echo "course is : ${COURSE}  ,trainer is : ${TRAINER} "
+CMD ["sleep","100"]
